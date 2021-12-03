@@ -46,4 +46,4 @@ We also provided the code to perform a customised test in `Full_model/TestCode.p
 
 In `Full_model/TestModel.ipynb` it is possible to see the results on the test set. 
 
-![alt text]()
+![alt text](https://github.com/annabregola/logo-detection/blob/main/results_iou.jpeg)
