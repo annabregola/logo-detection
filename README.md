@@ -24,7 +24,7 @@ However, we had two categories of data:
 
 The former category was present in both train, validation and test, while the latter was only inserted in the training dataset. For this reason, we first pre-processed the images from Roboflow and hence split them in train, test and validation. This operation can be found in `MergeFolders_yolov5.ipynb`.
 
-It is important to notice that we first started with only 5 reference logos, and hence added 6 more. For this reason, we had to perform the operation of splitting into train, test and validation twice, so that the extra logos acted as noise in the first model and as actual logos in the second.
+It is important to notice that we first started with only 5 reference logos, and hence added 6 more. For this reason, we had to perform the operation of splitting into train, test and validation twice, so that the extra logos acted as noise in the first model and as actual logos in the second. This operation can be found in `Extra_To_Main.ipynb`
 
 ## Model training
 
@@ -46,3 +46,4 @@ We also provided the code to perform a customised test in `Full_model/TestCode.p
 
 In `Full_model/TestModel.ipynb` it is possible to see the results on the test set. 
 
+![alt text]()
