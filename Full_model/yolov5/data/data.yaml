@@ -1,0 +1,16 @@
+names:
+- Nike
+- Adidas
+- Puma
+- TheNorthFace
+- UnderArmour
+- AppleInc
+- Starbucks
+- CocaCola
+- NFL
+- MercedesBenz
+- HardRockCafe
+nc: 11
+train: /home/labuser/Full_model/data_yolov5/train
+val: /home/labuser/Full_model/data_yolov5/val
+test: /home/labuser/Full_model/data_yolov5/test
