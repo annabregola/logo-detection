@@ -40,7 +40,7 @@ The reference metric for the evaluation of the model was the IOU, the Intersecti
 
 Unfortunately, YOLOv5 does not provide a built-in function to evaluate this metric. However, it is possible to retrieve the area of prediction as raw text. We hence used the provided coordinates to evaluate IOU through the formula displayed in `Full_model/TestModel.ipynb`. 
 
-We also provided the code to perform a customised test in `Full_model/TestCode.py`. As it was not possible to upload
+We also provided the code to perform a customised test in `Full_model/TestCode.py`. As it was not possible to upload the image folder, the source needs to be updated
 
 ## Results 
 
