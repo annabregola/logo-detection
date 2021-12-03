@@ -38,7 +38,7 @@ The reference metric for the evaluation of the model was the IOU, the Intersecti
 
 <img src="http://www.sciweavers.org/tex2img.php?eq=IOU%20%3D%20%20%5Cfrac%7BArea%20of%20Intersection%7D%7BArea%20of%20Union%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="IOU =  \frac{Area of Intersection}{Area of Union} " width="226" height="47" />
 
-Unfortunately, YOLOv5 does not provide a built-in function to evaluate this metric. However, it is possible to retrieve the area of prediction as raw text. We hence used the provided coordinates to evaluate IOU through the formula displayed in `Full_model/TestModel.ipynb`. 
+Unfortunately, YOLOv5 does not provide a built-in function to evaluate this metric. However, it is possible to retrieve the area of prediction as raw text. We hence used the provided coordinates to evaluate IOU through the formula displayed in `Full_model/TestModel.ipynb`. Moreover, we also wanted to take into consideration whether the classifier was successfully predicting the logo class, and we hence added a weighted version of the metric that returned 0 if the classifier was misclassifing the brand and the IOU instead when the classification was accurate
 
 We also provided the code to perform a customised test in `Full_model/TestCode.py`. As it was not possible to upload the image folder, the source needs to be updated.
 
