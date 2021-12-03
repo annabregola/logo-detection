@@ -40,10 +40,14 @@ The reference metric for the evaluation of the model was the IOU, the Intersecti
 
 Unfortunately, YOLOv5 does not provide a built-in function to evaluate this metric. However, it is possible to retrieve the area of prediction as raw text. We hence used the provided coordinates to evaluate IOU through the formula displayed in `Full_model/TestModel.ipynb`. 
 
-We also provided the code to perform a customised test in `Full_model/TestCode.py`. As it was not possible to upload the image folder, the source needs to be updated
+We also provided the code to perform a customised test in `Full_model/TestCode.py`. As it was not possible to upload the image folder, the source needs to be updated.
+
+By inserting the `Full_model/TestCode.py` line into `Full_model/TestModel.ipynb` and changing the source with the path folder containing a new test set, you can create a new `/exp` folder. 
+
+By then substituting the new `/exp` folder in `Full_model/TestModel.ipynb`, it is possible to evaluate the results on the new folder. 
 
 ## Results 
 
-In `Full_model/TestModel.ipynb` it is possible to see the results on the test set. 
+In `Full_model/TestModel.ipynb` it is possible to see the results on the test set. Here a preview on our test set. 
 
 ![alt text](https://github.com/annabregola/logo-detection/blob/main/results_iou.jpeg)
